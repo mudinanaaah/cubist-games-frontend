@@ -205,6 +205,7 @@ const Home: NextPage = () => {
                   />
                 </i>
               )}
+            <span>{process.env.NEXT_PUBLIC_SITE_NAME}</span>
             </h1>
             <GamesList
               games={openGames}
